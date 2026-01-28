@@ -1,0 +1,12 @@
+{
+  "anydesk": {
+    "nombre": "AnyDesk Corporativo",
+    "url": "https://download.anydesk.com/AnyDesk.exe",
+    "version": "7.1.0"
+  },
+  "slack": {
+    "nombre": "Slack Desktop",
+    "url": "https://downloads.slack-edge.com/releases/windows/4.31.155/prod/x64/SlackSetup.exe",
+    "version": "4.31"
+  }
+}
