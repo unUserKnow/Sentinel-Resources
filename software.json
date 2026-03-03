@@ -1,162 +1,53 @@
 {
-  "vscode": {
-    "nombre": "Visual Studio Code",
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
-  },
-  "cursor": {
-    "nombre": "Cursor AI Code Editor",
-    "url": "https://downloader.cursor.sh/windows/nsis/x64"
-  },
-  "git": {
-    "nombre": "Git for Windows",
-    "url": "https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe"
-  },
-  "node_js": {
-    "nombre": "Node.js (LTS)",
-    "url": "https://nodejs.org/dist/v20.18.1/node-v20.18.1-x64.msi"
-  },
-  "python": {
-    "nombre": "Python 3.12",
-    "url": "https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe"
-  },
-  "docker": {
-    "nombre": "Docker Desktop",
-    "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
-  },
-  "postman": {
-    "nombre": "Postman API Platform",
-    "url": "https://dl.pstmn.io/download/latest/win64"
-  },
-  "dbeaver": {
-    "nombre": "DBeaver Community (Universal DB Tool)",
-    "url": "https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe"
-  },
-  "mongodb_compass": {
-    "nombre": "MongoDB Compass",
-    "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.44.5-win32-x64.exe"
-  },
-  "mysql_installer": {
-    "nombre": "MySQL Installer Community",
-    "url": "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.39.0.msi"
-  },
-  "pgadmin": {
-    "nombre": "pgAdmin 4 (PostgreSQL)",
-    "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v8.12/windows/pgadmin4-8.12-x64.exe"
-  },
-  "intellij_idea": {
-    "nombre": "IntelliJ IDEA Community",
-    "url": "https://download.jetbrains.com/idea/ideaIC-2024.2.4.exe"
-  },
-  "pycharm": {
-    "nombre": "PyCharm Community",
-    "url": "https://download.jetbrains.com/python/pycharm-community-2024.2.4.exe"
-  },
-  "android_studio": {
-    "nombre": "Android Studio",
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.2.1.11/android-studio-2024.2.1.11-windows.exe"
-  },
-  "putty": {
-    "nombre": "PuTTY (SSH Client)",
-    "url": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi"
-  },
-  "filezilla": {
-    "nombre": "FileZilla (FTP)",
-    "url": "https://download.filezilla-project.org/client/FileZilla_3.67.1_win64-setup.exe"
-  },
-  "sublime_text": {
-    "nombre": "Sublime Text 4",
-    "url": "https://download.sublimetext.com/sublime_text_build_4180_x64_setup.exe"
-  },
-  "redis_insight": {
-    "nombre": "Redis Insight",
-    "url": "https://redis.com/redis-insight-download/"
-  },
-  "figma": {
-    "nombre": "Figma Desktop",
-    "url": "https://www.figma.com/download/desktop/win"
-  },
-  "slack": {
-    "nombre": "Slack for Windows",
-    "url": "https://downloads.slack-edge.com/releases/windows/4.41.105/prod/x64/SlackSetup.exe"
-  },
-  "vscode_mac": {
-    "nombre": "Visual Studio Code (macOS)",
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal"
-  },
-  "cursor_mac": {
-    "nombre": "Cursor AI (macOS)",
-    "url": "https://downloader.cursor.sh/mac/installer/universal"
-  },
-  "iterm2": {
-    "nombre": "iTerm2 (Terminal mejorada)",
-    "url": "https://iterm2.com/downloads/stable/latest"
-  },
-  "docker_mac_m1": {
-    "nombre": "Docker Desktop (Apple Silicon M1/M2/M3)",
-    "url": "https://desktop.docker.com/mac/main/arm64/Docker.dmg"
-  },
-  "docker_mac_intel": {
-    "nombre": "Docker Desktop (Intel)",
-    "url": "https://desktop.docker.com/mac/main/amd64/Docker.dmg"
-  },
-  "tableplus": {
-    "nombre": "TablePlus (Gestor DB moderno)",
-    "url": "https://tableplus.com/release/osx/tableplus_latest.zip"
-  },
-  "sequel_ace": {
-    "nombre": "Sequel Ace (MySQL/MariaDB)",
-    "url": "https://github.com/Sequel-Ace/Sequel-Ace/releases/download/release-4.1.3/Sequel-Ace-4.1.3.zip"
-  },
-  "postman_mac": {
-    "nombre": "Postman (macOS Apple Silicon)",
-    "url": "https://dl.pstmn.io/download/latest/osx_arm64"
-  },
-  "homebrew": {
-    "nombre": "Homebrew (Gestor de Paquetes)",
-    "url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh"
-  },
-  "warp_terminal": {
-    "nombre": "Warp Terminal (AI Powered)",
-    "url": "https://app.warp.dev/download?package=dmg"
-  },
-  "insomnia": {
-    "nombre": "Insomnia API Client",
-    "url": "https://updates.insomnia.rest/downloads/mac/latest"
-  },
-  "android_studio_mac": {
-    "nombre": "Android Studio (Mac Apple Silicon)",
-    "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.2.1.11/android-studio-2024.2.1.11-mac_arm.dmg"
-  },
-  "mongodb_compass_mac": {
-    "nombre": "MongoDB Compass (macOS)",
-    "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.44.5-darwin-arm64.dmg"
-  },
-  "sourcetree": {
-    "nombre": "SourceTree (Git GUI)",
-    "url": "https://product-downloads.atlassian.com/software/sourcetree/ga/SourceTree_4.2.9_267.zip"
-  },
-  "figma_mac": {
-    "nombre": "Figma Desktop (macOS)",
-    "url": "https://www.figma.com/download/desktop/mac"
-  },
-  "rectangles": {
-    "nombre": "Rectangle (Gestor de ventanas)",
-    "url": "https://github.com/rxhanson/Rectangle/releases/download/v0.81/Rectangle0.81.dmg"
-  },
-  "discord_mac": {
-    "nombre": "Discord (macOS)",
-    "url": "https://discord.com/api/download?platform=osx"
-  },
-  "slack_mac": {
-    "nombre": "Slack (macOS Apple Silicon)",
-    "url": "https://downloads.slack-edge.com/releases/macos/4.41.105/prod/arm64/Slack-4.41.105-arm64.dmg"
-  },
-  "raycast": {
-    "nombre": "Raycast (Productividad)",
-    "url": "https://www.raycast.com/download"
-  },
-  "arc_browser": {
-    "nombre": "Arc Browser",
-    "url": "https://releases.arc.net/release/Arc-latest.dmg"
-  }
+  "zoom_win": { "nombre": "Zoom Workplace (Windows)", "url": "https://zoom.us/client/latest/ZoomInstallerFull.exe" },
+  "zoom_mac": { "nombre": "Zoom Workplace (Mac Apple Silicon)", "url": "https://zoom.us/client/latest/Zoom.pkg?arch=arm64" },
+  "vscode_win": { "nombre": "Visual Studio Code (Windows User)", "url": "https://update.code.visualstudio.com/latest/win32-x64-user/stable" },
+  "vscode_mac": { "nombre": "Visual Studio Code (macOS Universal)", "url": "https://update.code.visualstudio.com/latest/darwin/stable" },
+  "cursor_win": { "nombre": "Cursor AI Editor (Windows)", "url": "https://downloader.cursor.sh/windows/nsis/x64" },
+  "cursor_mac": { "nombre": "Cursor AI Editor (macOS)", "url": "https://downloader.cursor.sh/mac/installer/universal" },
+  "chrome_win": { "nombre": "Google Chrome (Windows)", "url": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe" },
+  "chrome_mac": { "nombre": "Google Chrome (macOS)", "url": "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg" },
+  "slack_win": { "nombre": "Slack Desktop (Windows)", "url": "https://slack.com/ssb/download-win64" },
+  "slack_mac": { "nombre": "Slack Desktop (Mac Silicon)", "url": "https://slack.com/ssb/download-osx-silicon" },
+  "docker_win": { "nombre": "Docker Desktop (Windows)", "url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe" },
+  "docker_mac": { "nombre": "Docker Desktop (Mac M1/M2/M3)", "url": "https://desktop.docker.com/mac/main/arm64/Docker.dmg" },
+  "git_win": { "nombre": "Git (Windows)", "url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-64-bit.exe" },
+  "postman_win": { "nombre": "Postman (Windows)", "url": "https://dl.pstmn.io/download/latest/win64" },
+  "postman_mac": { "nombre": "Postman (Mac Silicon)", "url": "https://dl.pstmn.io/download/latest/osx_arm64" },
+  "dbeaver_win": { "nombre": "DBeaver Community (Windows)", "url": "https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe" },
+  "dbeaver_mac": { "nombre": "DBeaver Community (macOS)", "url": "https://dbeaver.io/files/dbeaver-ce-latest-macos-x86_64.dmg" },
+  "mongodb_win": { "nombre": "MongoDB Compass (Windows)", "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.0-win32-x64.exe" },
+  "mongodb_mac": { "nombre": "MongoDB Compass (macOS Silicon)", "url": "https://downloads.mongodb.com/compass/mongodb-compass-1.45.0-darwin-arm64.dmg" },
+  "pgadmin_win": { "nombre": "pgAdmin 4 (Windows)", "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.1/windows/pgadmin4-9.1-x64.exe" },
+  "pgadmin_mac": { "nombre": "pgAdmin 4 (macOS)", "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.1/macos/pgadmin4-9.1-x64.dmg" },
+  "intellij_win": { "nombre": "IntelliJ Community (Windows)", "url": "https://download.jetbrains.com/idea/ideaIC-2024.3.2.1.exe" },
+  "intellij_mac": { "nombre": "IntelliJ Community (Mac Silicon)", "url": "https://download.jetbrains.com/idea/ideaIC-2024.3.2.1-aarch64.dmg" },
+  "pycharm_win": { "nombre": "PyCharm Community (Windows)", "url": "https://download.jetbrains.com/python/pycharm-community-2024.3.2.1.exe" },
+  "pycharm_mac": { "nombre": "PyCharm Community (Mac Silicon)", "url": "https://download.jetbrains.com/python/pycharm-community-2024.3.2.1-aarch64.dmg" },
+  "sublime_win": { "nombre": "Sublime Text 4 (Windows)", "url": "https://download.sublimetext.com/sublime_text_build_4192_x64_setup.exe" },
+  "sublime_mac": { "nombre": "Sublime Text 4 (macOS)", "url": "https://download.sublimetext.com/sublime_text_build_4192_mac.zip" },
+  "discord_win": { "nombre": "Discord (Windows)", "url": "https://discord.com/api/download?platform=win" },
+  "discord_mac": { "nombre": "Discord (macOS)", "url": "https://discord.com/api/download?platform=osx" },
+  "figma_win": { "nombre": "Figma (Windows)", "url": "https://www.figma.com/download/desktop/win" },
+  "figma_mac": { "nombre": "Figma (macOS)", "url": "https://www.figma.com/download/desktop/mac" },
+  "insomnia_win": { "nombre": "Insomnia API (Windows)", "url": "https://updates.insomnia.rest/downloads/windows/latest" },
+  "insomnia_mac": { "nombre": "Insomnia API (Mac Silicon)", "url": "https://updates.insomnia.rest/downloads/mac/latest?arch=arm64" },
+  "whatsapp_win": { "nombre": "WhatsApp (Windows)", "url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe" },
+  "whatsapp_mac": { "nombre": "WhatsApp (macOS)", "url": "https://web.whatsapp.com/desktop/mac/download/" },
+  "telegram_win": { "nombre": "Telegram (Windows)", "url": "https://tdesktop.com/win64/current?setup=1" },
+  "telegram_mac": { "nombre": "Telegram (macOS)", "url": "https://macos.tdesktop.com/release/current.dmg" },
+  "vlc_win": { "nombre": "VLC Player (Windows)", "url": "https://get.videolan.org/vlc/3.0.21/win64/vlc-3.0.21-win64.exe" },
+  "vlc_mac": { "nombre": "VLC Player (Mac Silicon)", "url": "https://get.videolan.org/vlc/3.0.21/macosx/vlc-3.0.21-arm64.dmg" },
+  "android_studio_win": { "nombre": "Android Studio (Windows)", "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.2.1.11/android-studio-2024.2.1.11-windows.exe" },
+  "android_studio_mac": { "nombre": "Android Studio (Mac Silicon)", "url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.2.1.11/android-studio-2024.2.1.11-mac_arm.dmg" },
+  "brave_win": { "nombre": "Brave Browser (Windows)", "url": "https://laptop-updates.brave.com/latest/winx64" },
+  "brave_mac": { "nombre": "Brave Browser (macOS)", "url": "https://laptop-updates.brave.com/latest/osx" },
+  "anydesk_win": { "nombre": "AnyDesk (Windows)", "url": "https://download.anydesk.com/AnyDesk.exe" },
+  "anydesk_mac": { "nombre": "AnyDesk (macOS)", "url": "https://download.anydesk.com/anydesk.dmg" },
+  "obs_win": { "nombre": "OBS Studio (Windows)", "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Full-Installer-x64.exe" },
+  "obs_mac": { "nombre": "OBS Studio (Mac Silicon)", "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.2.3-Apple.dmg" },
+  "notion_win": { "nombre": "Notion (Windows)", "url": "https://www.notion.so/desktop/windows/download" },
+  "notion_mac": { "nombre": "Notion (Mac Silicon)", "url": "https://www.notion.so/desktop/apple-silicon/download" },
+  "tableplus_mac": { "nombre": "TablePlus (macOS)", "url": "https://tableplus.com/release/osx/tableplus_latest.zip" },
+  "arc_browser_mac": { "nombre": "Arc Browser (macOS)", "url": "https://releases.arc.net/release/Arc-latest.dmg" }
 }
